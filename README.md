@@ -7,7 +7,7 @@ by [Jim Kring](https://github.com/jimkring) on July 20, 2022 at [GDevCon NA](htt
 
 # 0. Presentation Video
 
-[![Presentation Video](https://img.youtube.com/vi/xzRinc2qjmI/0.jpg)](https://youtu.be/xzRinc2qjmI)
+[![Presentation Video](https://user-images.githubusercontent.com/381432/180095671-b28335db-9ee5-4484-a541-1ab565a2c8c0.png)](https://youtu.be/xzRinc2qjmI)
 
 <hr>
 
