@@ -3,32 +3,35 @@
 ## *Automating Development Tasks in the Cloud*
 by [Jim Kring](https://github.com/jimkring) on July 20, 2022 at [GDevCon NA](https://gdevconna.org/) in Golden Colorado, USA
 
-# Overview
+<hr>
 
-## GitHub
+# 1. Overview
+
+## 1.a. GitHub
 
 - Software project hosting in the cloud.
 - Source code control (git), issue tracking, and much more.
 - The defacto home for open source projects.
 - Purchased by Microsoft in 2018 for 7.5B USD
 
-## GitHub Actions
+## 1.b. GitHub Actions
 
 - Perform automation tasks related to your project.
 - You can create your own actions and use a variety of ones created by others.
 
+<hr>
 
-# Your Questions Answered
+# 2. Your Questions Answered
 
-## GitHub Actions → What are they?
+## 2.a. GitHub Actions → What are they?
 - They are recipes/scripts for work to be performed
 - They (typically) perform work on your project source files
 
-## GitHub Actions → Where do they run?
+## 2.b. GitHub Actions → Where do they run?
 - They run on servers "in the cloud" (not your local development computer)
 - They can run on different platforms (Linux, Mac, Windows)
 
-## GitHub Actions → When do they run?
+## 2.c. GitHub Actions → When do they run?
 
 They run when events occur:
 - manually (by button press on github.com project's 'actions' page)
@@ -37,10 +40,12 @@ They run when events occur:
 - Periodically daily/hourly/etc.
 - When external events "webhooks" occur
 
+<hr>
 
-# Under the Hood
 
-## Key Terms (Table)
+# 3. Under the Hood
+
+## 3.a. Key Terms (Table)
 
 | <div style="width:140px">Term</div> | Details                                                                                                                                                                                                                                 |
 | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -56,7 +61,7 @@ They run when events occur:
 | Runner labels                       | a set of labels used to specify the operating system and installed software configuration of the runner (e.g. `windows-2019`, `ubuntu-latest`, `macos-latest`, `self-hosted`)                                                           |
 |                                     |
 
-## Workflow YAML Files
+## 3.b. Workflow YAML Files
 
 *.yml files in the workflows folder define jobs that will run when certain events happen.
 
@@ -94,7 +99,7 @@ jobs:
             path: builds/*.exe
 ```
 
-## .github Folder
+## 3.c. `.github` Folder
 
 
 Where github actions looks for stuff.
@@ -112,10 +117,11 @@ Where github actions looks for stuff.
 
 
 
-# Examples
+<hr>
 
+# 4. Examples
 
-### Build Python Script into EXE
+## 4.a. Build Python Script into EXE
 
 
 https://github.com/marketplace/actions/build-exe-from-python-script
@@ -123,7 +129,7 @@ https://github.com/marketplace/actions/build-exe-from-python-script
 ![image](https://user-images.githubusercontent.com/381432/180043106-7d9cd5fb-ac9d-4e3a-aec0-1f2b73e74744.png)
 
 
-## Multi-Platform Builds
+## 4.b. Multi-Platform Builds
 
 
 To build for a given platform, just choose a runner of the appropriate operating system.  You can even build for multiple platforms in a single workflow using a matrix strategy, as shown below:
@@ -180,5 +186,13 @@ https://github.com/jimkring/kasa-cli/actions/runs/2682890462
 
 You can see that executable binaries were created for Mac, Linux, and Windows.
 
-# Using Actions with LabVIEW
+<hr>
 
+# 5. Using Actions with LabVIEW
+
+<details>
+<summary>
+Show
+</summary>
+Stay tuned...
+</details>
