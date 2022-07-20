@@ -5,6 +5,12 @@ by [Jim Kring](https://github.com/jimkring) on July 20, 2022 at [GDevCon NA](htt
 
 <hr>
 
+# 0. Presentation Video
+
+[![Presentation Video](https://img.youtube.com/vi/xzRinc2qjmI/0.jpg)](https://www.youtube.com/watch?v=https://youtu.be/xzRinc2qjmI)
+
+<hr>
+
 # 1. Overview
 
 ## 1.a. GitHub
