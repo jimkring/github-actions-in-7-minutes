@@ -12,4 +12,16 @@ search: true
 
 atom_feed:
   hide: true
-  
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: slides
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: false
