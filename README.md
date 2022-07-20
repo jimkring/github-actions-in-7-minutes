@@ -99,10 +99,11 @@ Where github actions looks for stuff.
                         uses: (action name)
 
 ## Examples
-
 ### Build Python Script into EXE
+
 https://github.com/marketplace/actions/build-exe-from-python-script
-<img width="518" alt="image" src="https://user-images.githubusercontent.com/381432/180043106-7d9cd5fb-ac9d-4e3a-aec0-1f2b73e74744.png">
+
+![image](https://user-images.githubusercontent.com/381432/180043106-7d9cd5fb-ac9d-4e3a-aec0-1f2b73e74744.png)
 
 ## Multi-Platform Builds
 
