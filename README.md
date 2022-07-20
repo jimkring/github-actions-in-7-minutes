@@ -1,7 +1,7 @@
 
 # GitHub Actions in 7 Minutes
 ## *Automating Development Tasks in the Cloud*
-by Jim Kring on July 20, 2022 at [GDevCon NA](https://gdevconna.org/) in Golden Colorado, USA
+by [Jim Kring](https://github.com/jimkring) on July 20, 2022 at [GDevCon NA](https://gdevconna.org/) in Golden Colorado, USA
 
 ## **What is GitHub?**
 - Software project hosting in the cloud.
