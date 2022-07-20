@@ -3,51 +3,49 @@
 ## *Automating Development Tasks in the Cloud*
 by [Jim Kring](https://github.com/jimkring) on July 20, 2022 at [GDevCon NA](https://gdevconna.org/) in Golden Colorado, USA
 
-## **What is GitHub?**
+# Overview
+## Overview → GitHub
 - Software project hosting in the cloud.
 - Source code control (git), issue tracking, and much more.
 - The defacto home for open source projects.
 - Purchased by Microsoft in 2018 for 7.5B USD
 
-## **What are GitHub Actions?**
+## Overview → GitHub Actions
 - Perform automation tasks related to your project.
 - You can create your own actions and use a variety of ones created by others.
 
-More details...
-
-## What are they?
+# More Details...
+## GitHub Actions → What are they?
 - They are recipes/scripts for work to be performed
 - They (typically) perform work on your project source files
 
-## Where do they run?
+## GitHub Actions → Where do they run?
 - They run on servers "in the cloud" (not your local development computer)
 - They can run on different platforms (Linux, Mac, Windows)
 
-## When do they run?
+## GitHub Actions → When do they run?
 - They run when events occur
 - Can be run manually
 - When code pushed to repository
 - Periodically daily/hourly/etc.
 - When external events "webhooks" occur
 
-## Key Concepts
-- GitHub Actions
-    - a big bucket of functionality for automating project tasks
-- Workflow
-    - a YAML file that defines a set of jobs
-- YAML files
-  - "Yet Another Markup Language" files are great for hierarchical config data used by build automation systems (e.g. GitHub and GitLab).
-  - more on that later...
-- Job
-    - a set of steps that will run on a runner
-- Runner
-    - a "computer" in the cloud that can do work (actions) for you
-- Hosted Runner
-    - a runner provided by GitHub 
-- Self-hosted Runner
-    - a computer you have installed the github runner software on and registered with your github repository/project or organization.
-- Runner tags
-    - specify the operating system and installed software configuration of the runner (e.g. `windows-2019`, `ubuntu-latest`, `macos-latest`, `self-hosted`)
+# Key Concepts
+## GitHub Actions → Key Concepts
+
+| Term               | Details                                                                                                                                                                                                                                 |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| GitHub Actions     | a big bucket of functionality for automating project tasks                                                                                                                                                                              |
+| Workflow           | a YAML file that defines a set of jobs                                                                                                                                                                                                  |
+| YAML (files)       | "Yet Another Markup Language" files are great for hierarchical config data used by build automation systems (e.g. GitHub and GitLab). more on that later...                                                                             |
+| Job                | a set of steps that will run on a runner                                                                                                                                                                                                |
+| Step               | an atomic unit of work that uses an `action`, has a set of inputs, work, and outputs                                                                                                                                                    |
+| Action             | a local or remote folder with action.yml and support files that does the work of the action                                                                                                                                             |
+| Runner             | a "computer" in the cloud that can do work (actions) for you                                                                                                                                                                            |
+| Hosted Runner      | a runner provided by GitHub                                                                                                                                                                                                             |
+| Self-hosted Runner | a computer on which you have [installed the github runner software](https://docs.github.com/en/actions/hosting-your-own-runners/adding-self-hosted-runners) and which isregistered with your github repository/project or organization. |
+| Runner tags        | specify the operating system and installed software configuration of the runner (e.g. `windows-2019`, `ubuntu-latest`, `macos-latest`, `self-hosted`)                                                                                   |
+|                    |                                                                                                                                                                                                                                         |
 
 ## Workflow YAML Files
 YAML or 
