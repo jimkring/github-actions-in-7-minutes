@@ -5,66 +5,40 @@ by [Jim Kring](https://github.com/jimkring) on July 20, 2022 at [GDevCon NA](htt
 
 # Overview
 
-<details>
-  <summary>GitHub</summary>
-
 ## GitHub
+
 - Software project hosting in the cloud.
 - Source code control (git), issue tracking, and much more.
 - The defacto home for open source projects.
 - Purchased by Microsoft in 2018 for 7.5B USD
-</details>
-<hr>
-
-<details>
-  <summary>GitHub Actions</summary>
 
 ## GitHub Actions
 
 - Perform automation tasks related to your project.
 - You can create your own actions and use a variety of ones created by others.
 
-</details>
-<hr>
 
 # Your Questions Answered
-
-<details>
-  <summary>What are they?</summary>
 
 ## GitHub Actions → What are they?
 - They are recipes/scripts for work to be performed
 - They (typically) perform work on your project source files
-</details>
-<hr>
-
-<details>
-  <summary>Where do they run?</summary>
 
 ## GitHub Actions → Where do they run?
 - They run on servers "in the cloud" (not your local development computer)
 - They can run on different platforms (Linux, Mac, Windows)
 
-</details>
-<hr>
-
-<details>
-  <summary>When do they run?</summary>
-
 ## GitHub Actions → When do they run?
+
 They run when events occur:
 - manually (by button press on github.com project's 'actions' page)
 - When code is pushed to repository
 - On a pull request
 - Periodically daily/hourly/etc.
 - When external events "webhooks" occur
-</details>
-<hr>
+
 
 # Under the Hood
-
-<details>
-  <summary>Key Terms (Table)</summary>
 
 ## Key Terms (Table)
 
@@ -80,12 +54,7 @@ They run when events occur:
 | Hosted Runner                       | a runner provided by GitHub                                                                                                                                                                                                             |
 | Self-hosted Runner                  | a computer on which you have [installed the github runner software](https://docs.github.com/en/actions/hosting-your-own-runners/adding-self-hosted-runners) and which isregistered with your github repository/project or organization. |
 | Runner labels                       | a set of labels used to specify the operating system and installed software configuration of the runner (e.g. `windows-2019`, `ubuntu-latest`, `macos-latest`, `self-hosted`)                                                           |
-|                                     |                                                                                                                                                                                                                                         |
-</details>
-<hr>
-
-<details>
-  <summary>Workflow YAML Files</summary>
+|                                     |
 
 ## Workflow YAML Files
 
@@ -125,12 +94,6 @@ jobs:
             path: builds/*.exe
 ```
 
-</details>
-<hr>
-
-<details>
-  <summary>.github Folder</summary>
-
 ## .github Folder
 
 
@@ -148,15 +111,10 @@ Where github actions looks for stuff.
                         uses: (action name)
 
 
-</details>
-<hr>
 
 # Examples
 
 
-<details>
-  <summary>Build Python Script into EXE</summary>
-  
 ### Build Python Script into EXE
 
 
@@ -164,12 +122,6 @@ https://github.com/marketplace/actions/build-exe-from-python-script
 
 ![image](https://user-images.githubusercontent.com/381432/180043106-7d9cd5fb-ac9d-4e3a-aec0-1f2b73e74744.png)
 
-
-</details>
-<hr>
-
-<details>
-  <summary>Multi-Platform Builds</summary>
 
 ## Multi-Platform Builds
 
@@ -228,13 +180,5 @@ https://github.com/jimkring/kasa-cli/actions/runs/2682890462
 
 You can see that executable binaries were created for Mac, Linux, and Windows.
 
-</details>
-<hr>
-
-<details>
-  <summary>Using Actions with LabVIEW</summary>
-
 # Using Actions with LabVIEW
 
-</details>
-<hr>
