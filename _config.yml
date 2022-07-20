@@ -8,7 +8,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-search: true
+# search: true
 
 atom_feed:
   hide: true
