@@ -10,6 +10,10 @@ plugins:
 
 # search: true
 
+title: "GitHub Actions in 7 Minutes"
+subtitle: "Automating Development Tasks in the Cloud"
+description: "A short presentation by Jim Kring on July 20, 2022 at GDevCon NA in Golden Colorado, USA."
+
 atom_feed:
   hide: true
 
