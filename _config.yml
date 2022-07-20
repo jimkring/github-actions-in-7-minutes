@@ -15,6 +15,10 @@ titles_from_headings:
   strip_title: true
   collections: true
 
+main:
+- title: "github.com/jimkring"
+  url: https://github.com/jimkring
+
 # search: true
 author: "Jim Kring"
 title: "GitHub Actions in 7 Minutes"
