@@ -36,3 +36,5 @@ defaults:
       comments: false
       share: false
       related: false
+      recent: false
+      
