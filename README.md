@@ -53,7 +53,7 @@ They run when events occur:
 
 ## 3.a. Key Terms (Table)
 
-| <div style="width:140px">Term</div> | Details                                                                                                                                                                                                                                 |
+| Term | Details                                                                                                                                                                                                                                 |
 | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | GitHub Actions                      | a big bucket of functionality for automating project tasks                                                                                                                                                                              |
 | Workflow                            | a YAML file that defines a set of jobs                                                                                                                                                                                                  |
